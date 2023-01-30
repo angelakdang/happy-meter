@@ -1,12 +1,11 @@
 [tool.poetry]
-name = "deploy-functions-oidc-template"
-version = "1.2.0"
-description = "Cognite Functions template for OIDC projects"
-authors = ["hakon.treider@cognite.com"]
+name = "happy-meter"
+version = "0.0.0"
+description = "Cognite Functions repo for calculating daylight hours"
+authors = ["angelakdang@gmail.com"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pytest-custom-exit-code = "^0, >=0.3"
 cognite-sdk = "^5"
 
 [tool.poetry.dev-dependencies]
